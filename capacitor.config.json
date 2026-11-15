@@ -1,0 +1,17 @@
+{
+  "appId": "com.tumbuh.app",
+  "appName": "Tumbuh",
+  "webDir": "www",
+  "backgroundColor": "#071016",
+  "android": {
+    "backgroundColor": "#071016",
+    "allowMixedContent": false
+  },
+  "plugins": {
+    "StatusBar": {
+      "style": "DARK",
+      "backgroundColor": "#071016",
+      "overlaysWebView": false
+    }
+  }
+}
