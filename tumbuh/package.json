@@ -1,0 +1,22 @@
+{
+  "name": "tumbuh",
+  "version": "1.0.0",
+  "description": "Tumbuh - aplikasi tabungan, investasi, dan pencatatan keuangan harian",
+  "private": true,
+  "scripts": {
+    "serve": "npx --yes serve www -l 8080",
+    "android:add": "cap add android",
+    "android:assets": "capacitor-assets generate --android",
+    "android:sync": "cap sync android",
+    "android:apk": "cd android && ./gradlew assembleDebug"
+  },
+  "dependencies": {
+    "@capacitor/android": "^7.0.0",
+    "@capacitor/core": "^7.0.0",
+    "@capacitor/status-bar": "^7.0.0"
+  },
+  "devDependencies": {
+    "@capacitor/assets": "^3.0.5",
+    "@capacitor/cli": "^7.0.0"
+  }
+}
